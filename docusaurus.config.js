@@ -1,19 +1,19 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Cloudworkstation',
+  tagline: 'The power of the cloud in your browser',
+  url: 'https://cloudworkstation.dev/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'cloudworkstation', // Usually your GitHub org/user name.
+  projectName: 'cloudworkstation.github.io', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Cloudworkstation.dev',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Cloudworkstation Logo',
         src: 'img/logo.svg',
       },
       items: [
