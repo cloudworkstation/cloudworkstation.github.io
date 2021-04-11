@@ -2,14 +2,18 @@ module.exports = {
   docs: [
     {
       type: 'category',
-      label: 'Docusaurus Tutorial',
+      label: 'Cloudworkstation',
       items: [
-        'getting-started',
-        'create-a-page',
-        'create-a-document',
-        'create-a-blog-post',
-        'markdown-features',
-        'thank-you',
+        'introduction',
+        'design-principles',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Getting Started',
+      items: [
+        'installation',
+        'configuration'
       ],
     },
   ],

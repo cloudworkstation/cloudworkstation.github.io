@@ -43,7 +43,7 @@ module.exports = {
             },
           ],
         },
-        {
+        /*{
           title: 'Community',
           items: [
             {
@@ -59,7 +59,7 @@ module.exports = {
               href: 'https://twitter.com/docusaurus',
             },
           ],
-        },
+        },*/
         {
           title: 'More',
           items: [
@@ -69,12 +69,12 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/cloudworkstation',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Cloudworkstation. Built with Docusaurus.`,
     },
   },
   presets: [
