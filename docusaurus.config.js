@@ -10,6 +10,9 @@ module.exports = {
   organizationName: 'cloudworkstation', // Usually your GitHub org/user name.
   projectName: 'cloudworkstation.github.io', // Usually your repo name.
   themeConfig: {
+    prism: {
+      additionalLanguages: ['hcl'],
+    },
     navbar: {
       title: 'Cloudworkstation.dev',
       logo: {

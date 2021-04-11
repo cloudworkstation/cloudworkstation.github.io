@@ -13,7 +13,8 @@ module.exports = {
       label: 'Getting Started',
       items: [
         'installation',
-        'configuration'
+        'oidc-reqts',
+        'configuration',
       ],
     },
   ],
