@@ -14,7 +14,7 @@ module.exports = {
       title: 'Cloudworkstation.dev',
       logo: {
         alt: 'Cloudworkstation Logo',
-        src: 'img/logo.svg',
+        src: 'img/cws_logo.svg',
       },
       items: [
         {
@@ -85,7 +85,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/cloudworkstation/cloudworkstation.github.io/edit/main/',
         },
         blog: {
           showReadingTime: true,
