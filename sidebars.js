@@ -5,7 +5,9 @@ module.exports = {
       label: 'Cloudworkstation',
       items: [
         'introduction',
+        'architecture',
         'design-principles',
+        'licence'
       ],
     },
     {
@@ -15,6 +17,13 @@ module.exports = {
         'installation',
         'oidc-reqts',
         'configuration',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Contributing',
+      items: [
+        'code-of-conduct',
       ],
     },
   ],

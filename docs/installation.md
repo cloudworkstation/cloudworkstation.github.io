@@ -41,7 +41,6 @@ The IdP should be configured to send the following claims:
 * email
 * groups
 
-
 The `email` claim is used to uniquely identify each user.  If you don't want to use this claim then send another and make sure the `oidc_remote_user_claim` variable is updated to match it when deploying the platform.
 
 ### Create secrets
