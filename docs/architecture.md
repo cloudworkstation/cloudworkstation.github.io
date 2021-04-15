@@ -10,12 +10,16 @@ The high level solution design is shown below.
 <Mermaid chart={`
 	graph TD;
     IngressLB[Ingress LB] --> OIDC[OIDC Proxy]
-    OIDC --> Console
-    OIDC --> API
-    OIDC --> Desktop[Desktop Router]
+    subgraph ECS[ECS Cluster]
+      OIDC --> Console
+      OIDC --> API
+      OIDC --> Desktop[Desktop Router]
+      Desktop --> Proxy1[Proxy 1]
+      Desktop --> Proxyn[Proxy n]
+    end
+    Proxy1 --> Instance1[Instance 1]
+    Proxyn --> Instancen[Instance n]
     API --> DB[DynamoDB]
-    Desktop --> Instance1[Instance 1]
-    Desktop --> Instancen[Instance n]
 `}/>
 
 ## Components

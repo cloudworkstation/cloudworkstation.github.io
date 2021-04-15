@@ -15,8 +15,8 @@ module.exports = {
       label: 'Getting Started',
       items: [
         'installation',
-        'oidc-reqts',
         'configuration',
+        'platform-config'
       ],
     },
     {
